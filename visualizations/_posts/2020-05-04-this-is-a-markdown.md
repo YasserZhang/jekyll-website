@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post-template
 ---
 
 ### This is A Markdown
