@@ -10,7 +10,7 @@
 
         <div class="row">
 
-        {% for post in site.posts %}
+        {% for post in site.categories.visualizations %}
         <div class="col-4 col-12-mobile">
             <article class="item">
                 <a href="{{ site.baseurl }}{{ post.url }}" class="image fit"><img src="{{ site.baseurl }}/{{ post.cover-image }}" alt=""></a>
@@ -21,49 +21,5 @@
         </div>
         {% endfor %}
     </div>
-        <!-- <div class="row">
-            <div class="col-4 col-12-mobile">
-                <article class="item">
-                    <a href="/projects/china-state-media-covid-19/index.html" class="image fit"><img src="/projects/china-state-media-covid-19/images/1-Coronavirus Stories reported by China's State Media.svg" /></a>
-                    <header>
-                        <h3>China State Media's Coverage of COVID-19</h3>
-                    </header>
-                </article>
-                <article class="item">
-                    <a href="/projects/test-post/index.html" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-                    <header>
-                        <h3>This is a test post</h3>
-                    </header>
-                </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-                <article class="item">
-                    <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-                    <header>
-                        <h3>Sophia</h3>
-                    </header>
-                </article>
-                <article class="item">
-                    <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-                    <header>
-                        <h3>Natoque Vitae</h3>
-                    </header>
-                </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-                <article class="item">
-                    <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-                    <header>
-                        <h3>Dolor Penatibus</h3>
-                    </header>
-                </article>
-                <article class="item">
-                    <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-                    <header>
-                        <h3>Orci Convallis</h3>
-                    </header>
-                </article>
-            </div>
-        </div> -->
     </div>
 </section>
