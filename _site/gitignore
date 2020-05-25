@@ -1,7 +1,0 @@
-_site
-*.gem
-.sass-cache/*
-Gemfile.lock
-.jekyll-cache/*
-.jekyll-metadata
-.ruby-version
